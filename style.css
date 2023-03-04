@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(48, 0, 102);
+    color: #000;
+}
+
+/*  шапка  */
+header {
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 15%;
+    height: auto;
+}
+
+nav {
+    font-family: 'Lobster', cursive;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(147, 255, 104);
+    font-family: 'Caveat', cursive;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*  main  */
+.banner {
+    width: 100%;
+    background: url(images2/dazay.jpg);
+    background-size: cover;
+    padding-top: 70vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.pBanner {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Lobster', cursive;
+}
+
+.link {
+    display: inline-block;
+    background-color: rgb(0, 255, 42);
+    padding: 20px 40px;
+    color: rgb(57, 0, 71);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: rgb(75, 0, 119);
+    text-decoration: none;
+}
+
+.move {
+    width: 100 wv;
+    height: 70vh;
+    background-color: rgb(0, 255, 242);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    background: url(images/BG2.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  подвал  */
+footer {
+    background-color: rgb(0, 255, 242);
+    font-family: 'Russo One', sans-serif;
+}
+
+.footerInner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(75, 0, 119);
+}
+
+@media(max-width: 1224px){
+    .pBanner {
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+    }
+}
+
+@media(max-width: 1224px){
+    .banner {
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+    }
+}
+
+@media(max-width: 1024px){
+    .banner{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 1024px){
+    .pBanner{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 1000px){
+    .pBanner{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 1000px){
+    .banner{
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+    }
+}
